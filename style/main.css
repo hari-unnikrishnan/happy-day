@@ -104,7 +104,7 @@ body {
 
 .six img {
   display: inline-block;
-  height: 350px;
+  height: 287px;
   max-width: 100%;
   /* height: auto; */
 }
@@ -232,7 +232,7 @@ body {
 @media screen and (max-height: 1000px) {
   .six .hat {
     left: 40%;
-    margin-right: 10px;
+    
    
   }
 }
@@ -240,21 +240,21 @@ body {
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
-    margin-right: 10px;
+   
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
-    margin-right: 10px;
+    
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
-    margin-right: 10px;
+  
   }
 }
 
@@ -303,10 +303,8 @@ body {
 
 
 
-
-
 /* Responsive styles for mobile screens */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .container {
     width: 100%;
     padding: 10px;
@@ -355,4 +353,4 @@ body {
   .six .wish h5 {
     font-size: 0.8rem;
   }
-}
+} */
