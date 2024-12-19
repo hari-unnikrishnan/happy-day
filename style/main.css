@@ -7,99 +7,6 @@ body {
   margin: 0;
 }
 
-
-/* Base Styles */
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
-
-/* Target Android Mobile Screen Sizes */
-@media screen and (max-width: 480px) and (orientation: portrait) {
-  /* Styles for portrait orientation */
-  body {
-    font-size: 16px;
-    background-color: #e3f2fd; /* Light blue for example */
-  }
-
-  .container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px;
-  }
-
-  h1.one {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .four .text-box p {
-    font-size: 0.9rem;
-  }
-
-  .six img.hat {
-    width: 70px;
-  }
-
-  .seven .baloons img {
-    width: 20px;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  /* Styles for landscape orientation */
-  body {
-    font-size: 14px;
-    background-color: #ffebee; /* Light red for example */
-  }
-
-  .container {
-    width: 95%;
-    padding: 5px;
-  }
-
-  h1.one {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-  .four .text-box p {
-    font-size: 0.8rem;
-  }
-
-  .six img.hat {
-    width: 60px;
-  }
-
-  .seven .baloons img {
-    width: 15px;
-    height: auto;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .song {
   visibility: hidden;
 }
@@ -197,7 +104,7 @@ body {
 
 .six img {
   display: inline-block;
-  height: 287px;
+  height: 350px;
   max-width: 100%;
   /* height: auto; */
 }
@@ -347,7 +254,7 @@ body {
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
-  
+    margin-right: 10px;
   }
 }
 
@@ -393,57 +300,3 @@ body {
     font-weight: lighter;
   }
 }
-
-
-
-/* Responsive styles for mobile screens */
-/* @media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-
-  h1.one {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .four .text-box {
-    padding: 10px;
-  }
-
-  .six .wish {
-    margin-right: 0;
-    text-align: center;
-  }
-
-  .six .wish-hbd {
-    font-size: 1.5rem;
-  }
-
-  .six img.hat {
-    width: 80px;
-  }
-
-  .seven .baloons img {
-    width: 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1.one {
-    font-size: 1.2rem;
-  }
-
-  .four .text-box p {
-    font-size: 0.9rem;
-  }
-
-  .six .wish-hbd {
-    font-size: 1.2rem;
-  }
-
-  .six .wish h5 {
-    font-size: 0.8rem;
-  }
-} */
