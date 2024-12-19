@@ -104,8 +104,9 @@ body {
 
 .six img {
   display: inline-block;
-  height: 350px;
+  height: 250px;
   max-width: 100%;
+
   /* height: auto; */
 }
 
@@ -299,4 +300,8 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+.wishText{
+  margin-bottom: 20px !important;
 }
