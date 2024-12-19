@@ -300,3 +300,59 @@ body {
     font-weight: lighter;
   }
 }
+
+
+
+
+
+/* Responsive styles for mobile screens */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1.one {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .four .text-box {
+    padding: 10px;
+  }
+
+  .six .wish {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .six .wish-hbd {
+    font-size: 1.5rem;
+  }
+
+  .six img.hat {
+    width: 80px;
+  }
+
+  .seven .baloons img {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1.one {
+    font-size: 1.2rem;
+  }
+
+  .four .text-box p {
+    font-size: 0.9rem;
+  }
+
+  .six .wish-hbd {
+    font-size: 1.2rem;
+  }
+
+  .six .wish h5 {
+    font-size: 0.8rem;
+  }
+}
